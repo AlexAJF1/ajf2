@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calculadora de IMC"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/txtInfoAlunoImc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aluno:\nFaculdade:"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editPeso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:String="Digite o peso ()"
+            android:hint="digite seu peso"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/editAltura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="digite sua altura"
+            android:inputType="numberDecimal"
+            android:string="Digite a altura ()" />
+
+        <Button
+            android:id="@+id/btnCalcularImc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calcular IMC"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/txtResultadoImc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resultado do IMC"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/btnIrInicioImc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Voltar para Início"
+            android:layout_marginTop="24dp" />
+
+        <Button
+            android:id="@+id/btnIrMedia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ir para Média"
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+</ScrollView>

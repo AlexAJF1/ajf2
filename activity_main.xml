@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tela Inicial"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            android:id="@+id/editNomeAluno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite o nome do aluno"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editFaculdade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite a faculdade"
+            android:inputType="textCapWords"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnMedia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ir para Calculadora de Média"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnImc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ir para Calculadora de IMC" />
+
+    </LinearLayout>
+</ScrollView>
