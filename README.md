@@ -1,5 +1,5 @@
 Grupo formado por:
 
 Alexandro Junior França Oliveira - Ciência da Computação
-yuri - ADS
-Rafael - ADS 
+Yuri dos Reis Mendonça - ADS
+Rafael Henrique dos Santos - ADS
